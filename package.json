@@ -1,0 +1,16 @@
+{
+  "name": "KAFKAJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ciceromngr/KAFKAJS.git",
+  "author": "ciceromngr <cicerotransformice@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/kafka.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "kafka-node": "^5.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
